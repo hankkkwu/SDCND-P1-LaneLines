@@ -29,14 +29,14 @@
 ![alt text](./images/masked_image.jpg)
 
 5. Define Hough transform parameters and use hough_lines() to draw lines. 
-In order to draw a single line on the left and right lanes, I modified the draw_lines() function. First I seperate the line segments by slope into 2 list, second I average the coefficient(slope and y-intercept) in each list, third I define y1 and y2, then use the equation    y=mx+b to calculate x1 and x2, finally put those parameters into cv2.line() function.
+In order to draw a single line on the left and right lanes, I modified the draw_lines() function. First I seperate the line segments by slope into 2 lists. Second I average the coefficients(slope and y-intercept) in each list. Third I define y1 and y2, then use the equation    y=mx+b to calculate x1 and x2, finally put those parameters into cv2.line() function.
 
 Explain in Mandarin:
 為了在路的左右邊各畫一條線，我修改了draw_lines()，我先算出每條片段的斜率跟截距，接著用斜率把這些片段分出左右邊，再來把左右邊的係數(斜率跟截距)分別取平均值，然後定義y1跟y2後，使用y=mx+b分別求出左右邊的x1與x2，最後將左右邊的x1,y1,x2,y2導入cv2.line()。
 
 ![alt text](./images/line_image.jpg)
 
-6. Overlay two images (input image and line image from Hough transform) using weighted_img function
+6. Overlay two images (input image and line image from Hough transform) using weighted_img() function
 
 ![alt text](./images/combo_img.jpg )
 
@@ -47,7 +47,7 @@ Explain in Mandarin:
 
 1. One potential shortcoming would be it cannot draw curve, when the road is not straight, the program might draw some lines that doesn't fit the lane lines. 
 
-2. Another shortcoming could be when there are some objects in your region of interest, the program might fail to draw the lane lines.
+2. Another shortcoming could be when there are some objects in the region of interest, the program might fail to draw the lane lines.
 
 
 ### 3. Suggest possible improvements to the pipeline
