@@ -18,7 +18,23 @@ To meet specifications in the project, take a look at the requirements in the [p
 The Project
 ---
 
-## If you have already installed the [CarND Term1 Starter Kit](https://github.com/udacity/CarND-Term1-Starter-Kit/blob/master/README.md) you should be good to go!   If not, you should install the starter kit to get started on this project. ##
+Here are the result videos:
+
+[![result video1](http://img.youtube.com/vi/Q-ZRowPlI2g/0.jpg)](https://www.youtube.com/watch?v=Q-ZRowPlI2g "Finding Lane Lines 1")
+
+
+
+[![result video2](http://img.youtube.com/vi/QObZ-cegwOY/0.jpg)](https://www.youtube.com/watch?v=QObZ-cegwOY "Finding Lane Lines 2")
+
+
+* Code in [project code](https://github.com/hankkkwu/SDCND-P1-LaneLines/blob/master/P1.ipynb)
+* Project wirteup report in [writeup roport](https://github.com/hankkkwu/SDCND-P1-LaneLines/blob/master/Writeup_report.md)
+
+
+Install
+---
+
+### If you have already installed the [CarND Term1 Starter Kit](https://github.com/udacity/CarND-Term1-Starter-Kit/blob/master/README.md) you should be good to go!   If not, you should install the starter kit to get started on this project. ##
 
 **Step 1:** Set up the [CarND Term1 Starter Kit](https://classroom.udacity.com/nanodegrees/nd013/parts/fbf77062-5703-404e-b60c-95b78b2f3f9e/modules/83ec35ee-1e02-48a5-bdb7-d244bd47c2dc/lessons/8c82408b-a217-4d09-b81d-1bda4c6380ef/concepts/4f1870e0-3849-43e4-b670-12e6f2d4b7a7) if you haven't already.
 
@@ -31,10 +47,3 @@ Jupyter is an Ipython notebook where you can run blocks of code and see results 
 `> jupyter notebook`
 
 A browser window will appear showing the contents of the current directory.  Click on the file called "P1.ipynb".  Another browser window will appear displaying the notebook.  Follow the instructions in the notebook to complete the project.  
-
-**Step 3:** Complete the project and submit both the Ipython notebook and the project writeup
-
-* Code in [project code](https://github.com/hankkkwu/SDCND-P1-LaneLines/blob/master/P1.ipynb)
-* Output video 1 in [output video1](https://github.com/hankkkwu/SDCND-P1-LaneLines/blob/master/test_videos_output/solidWhiteRight.mp4)
-* Output video 2 in [output video2](https://github.com/hankkkwu/SDCND-P1-LaneLines/blob/master/test_videos_output/solidYellowLeft.mp4)
-* Project wirteup report in [writeup roport](https://github.com/hankkkwu/SDCND-P1-LaneLines/blob/master/Writeup_report.md)
