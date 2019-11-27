@@ -27,8 +27,8 @@ Here are the result videos:
 [![result video2](http://img.youtube.com/vi/QObZ-cegwOY/0.jpg)](https://www.youtube.com/watch?v=QObZ-cegwOY "Finding Lane Lines 2")
 
 
-* Code in [project code](https://github.com/hankkkwu/SDCND-P1-LaneLines/blob/master/P1.ipynb)
-* Project wirteup report in [writeup roport](https://github.com/hankkkwu/SDCND-P1-LaneLines/blob/master/Writeup_report.md)
+* You can find code in [here](https://github.com/hankkkwu/SDCND-P1-LaneLines/blob/master/P1.ipynb)
+* Project wirteup report in [here](https://github.com/hankkkwu/SDCND-P1-LaneLines/blob/master/Writeup_report.md)
 
 
 Install
